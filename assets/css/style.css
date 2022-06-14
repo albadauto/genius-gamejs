@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-family: 'Roboto';
+}
+
+ul li a{
+    list-style: none;
+    color: blueviolet;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.3rem;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a:hover{
+    background-color: blueviolet;
+    color: black;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-size: 20px;
+}
+
+.logo{
+    color: blueviolet;
+    font-family: 'Bebas neue';
+    font-size: 25px;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+
+.any{
+    color: white;
+}
+
+
+.container{
+    background-color: rgb(15, 15, 15);
+    justify-content: center;
+    margin: 150px;
+    padding: 90px;
+    border-radius: 20px;
+
+}
+
+.any-title{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-input{
+    background-color: #222;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    outline: 0;
+    color: white;
+    font-size: 15px;
+}
+
+.btn-enviar{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover{
+    background-color: #222;
+    transition: all 0.5s;
+}
+
+.btn-genius{
+    background-color: rgb(22, 22, 22);
+    border: none;
+    cursor: pointer;
+}
