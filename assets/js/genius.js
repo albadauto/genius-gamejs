@@ -1,4 +1,4 @@
-//EMILY RODRIGUES DE SOUSA
+
 
 var sequence = [];
 var sequenceUser = [];
